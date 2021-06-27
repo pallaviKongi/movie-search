@@ -1,0 +1,29 @@
+:root {
+  --black: #080808;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.App {
+  position: relative;
+  padding: 1em;
+  text-align: center;
+  margin: auto;
+
+  .App-header {
+    font-size: 5em;
+    color: white;
+
+    .title {
+      color: red;
+    }
+  }
+
+  .input-search {
+    padding: 1em;
+    width: 25em;
+    border-radius: 0.5em;
+  }
+}
